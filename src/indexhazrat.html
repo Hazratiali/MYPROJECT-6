@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./output.css">
     <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
     <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
 </head>
 
@@ -23,9 +23,9 @@
         </nav>
         <nav class=" w-[90%] m-auto p-[20px] flex items-center justify-between">
             <ul class="flex items-center w-[60%] justify-between">
-                <a class="text-[18px] font-[500]" href="http://127.0.0.1:5500/src/index.html">Главная</a>
-                <li class="text-[18px] font-[500]">Каталог</li>
-                <a  class="text-[18px] font-[500]" href="http://127.0.0.1:5500/src/indexhazrat.html">О нас</a>
+                <li class="text-[18px] font-[500]">Главная</li>
+                <a class="text-[18px] font-[500]" href="http://127.0.0.1:5500/src/indexali.html">Каталог</a>
+                <li class="text-[18px] font-[500]">О нас</li>
                 <li class="text-[18px] font-[500]">Новости</li>
                 <li class="text-[18px] font-[500]">Партнеры</li>
                 <li class="text-[18px] font-[500]">Контакты</li>
@@ -33,52 +33,50 @@
             <input class="w-[280px] pl-[25px] py-[10px] h-[50px] bg-[#F3F3F3] rounded-3xl" type="url"
                 placeholder="поиск по каталогу">
         </nav>
+        <p class="ml-[90px]">header on scroll</p>
+        <p class="ml-[90px] mt-[20px]">buttons</p>
     </header>
     <main>
-        <section class="w-[90%] h-[1100px] m-auto flex ">
-            <aside class="w-[500px]">
-                <ul class="font-bold flex flex-col gap-[25px]">
-                    <li>Транспортер выгрузной</li>
-                    <li>Колесные экскаваторы</li>
-                    <li>Экскаваторы-погрузчики</li>
-                    <li>Картофелеуборочная техника</li>
-                    <li>Транспортеры MEDO</li>
-                    <li>Комплектующие MEDO</li>
-                    <li>Почвообрабатывающая техника</li>
-                    <li>Кормоуборочная техника</li>
-                    <li>Опрыскиватели</li>
-                    <li>Разбрасыватели</li>
-                    <li>Зерноуборочная техника</li>
-                    <li>Зерноуборочная техника</li>
-                    <li>Зерноуборочная техника</li>
-                    <li>Зерноуборочная техника</li>
-                    <li>Зерноуборочная техника</li>
-                    <li>Зерноуборочная техника</li>
-                    <li>Зерноуборочная техника</li>
-                    <li>Зерноуборочная техника</li>
-                    <li>Зерноуборочная техника</li>
-
-                </ul>
+        <div class="w-[90%] m-auto h-[150px] flex gap-[40px] mt-[30px]">
+            <div class="flex flex-col gap-[15px]">
+                <button class="py-[10px] px-[25px] rounded-2xl text-[#075C35] bg-[#F3F3F3]">написать нам</button>
+                <button class="py-[10px] px-[25px] rounded-2xl text-white bg-[#075C35]">написать нам</button>
+            </div>
+            <div class="flex flex-col gap-[15px]">
+                <button class="py-[10px] px-[25px] rounded-2xl text-white bg-[#075C35]">узнать стоимость </button>
+                <button class="py-[10px] px-[25px] rounded-2xl text-[#075C35] bg-[#F3F3F3]"> узнать стоимость</button>
+            </div>
+            <div class="flex flex-col gap-[15px]">
+                <button class="py-[10px] px-[25px] rounded-2xl text-[#075C35] bg-[#F3F3F3]"> узнать стоимость</button>
+                <button class="py-[10px] px-[25px] rounded-2xl text-[#075C35] bg-[#F3F3F3]"> узнать стоимость</button>
+            </div>
+            <div class="flex flex-col gap-[15px] flex-wrap">
+                <button class="py-[10px] px-[25px] rounded-2xl text-white bg-[#075C35]">получить консультацию </button>
+                <button class="py-[10px] px-[25px] rounded-2xl text-[#075C35] bg-[#F3F3F3]"> получить
+                    консультацию</button>
+            </div>
+            <div class="flex flex-col gap-[15px]">
+                <button class="py-[10px] px-[25px] rounded-2xl text-white bg-[#075C35]">перейти в каталог </button>
+                <button class="py-[10px] px-[25px] rounded-2xl text-[#075C35] bg-[#F3F3F3]">перейти в каталог</button>
+            </div>
+        </div>
+        <p class="ml-[90px] mb-[30px]">cards</p>
+        <section class="w-[90%] m-auto flex gap-[30px] mb-[50px]">
+            <aside>
+                <img src="./card (6).png" alt="">
             </aside>
-            <aside class="p-[30px]">
-                <div>
-                    <img src="./card (4).png" alt="">
+            <aside>
+                <div class="flex gap-[20px]">
+                    <img src="./вк (2).png" alt="">
+                    <img src="./wa (3).png" alt="">
+                    <img src="./tg.png" alt="">
+                    <img src="./тг.png" alt="">
+                    <img src="./ватап.png" alt="">
                 </div>
-                <section>
-                    <button class="py-[10px] px-[30px] rounded-xl text-white bg-[#13673F]">Оплата и доставка</button>
-                    <br>
-                     <br>
-                    <p>Поставляем оригинальные запчасти, а также качественные аналоги . <br> Оказываем услуги по Ремонту и восстановлению деталей, узлов и механизмов.</p>
-                    <br>
-                   <p>  Помогаем специалистам правильно дефектовать технику и подобрать именно те детали, которые действительно необходимы. Оказываем информационную поддержку технических специалистов при работе с каталогами и определением правильных параметров и характеристик деталей.</p>
-                    <br>
-                   <p>Проводим консультации для руководителей о правильной эксплуатации техники, а также определении причин аварийных поломок вследствие нарушений правил выполнения работ и технологии.</p>
-                   <br>
-                   <br>
-                   <img src="./FFFFF.png" alt="">
-                </section>
-            </aside>
+                <div class="flex gap-[30px]">
 
+                </div>
+            </aside>
         </section>
     </main>
     <footer class="w-[100%] h-[475px] p-[60px] bg-[#EFEFEF]">
